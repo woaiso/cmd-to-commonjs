@@ -1,0 +1,26 @@
+{
+  "name": "cmd-to-commonjs",
+  "version": "0.0.1",
+  "description": "cmd to commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woaiso/cmd-to-commonjs.git"
+  },
+  "keywords": [
+    "cmd2commonjs",
+    "cmdtocommonjs"
+  ],
+  "author": "yunful",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/woaiso/cmd-to-commonjs/issues"
+  },
+  "homepage": "https://github.com/woaiso/cmd-to-commonjs#readme",
+  "devDependencies": {
+    "jscodeshift": "^0.3.30"
+  }
+}
