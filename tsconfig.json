@@ -1,0 +1,22 @@
+{
+	"include": [
+		"./src/**/*"
+	],
+	"compilerOptions": {
+		"outDir": "./lib/",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"target": "es6",
+		"noEmitOnError": true,
+		"preserveConstEnums": true,
+		"removeComments": false,
+		"sourceMap": true,
+		"noImplicitAny": false,
+		"suppressImplicitAnyIndexErrors": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"noUnusedParameters": false,
+		"alwaysStrict": true,
+		"newLine": "LF"
+	}
+}

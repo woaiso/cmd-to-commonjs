@@ -4,7 +4,7 @@
   "description": "cmd to commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "ts-node src/index.ts test/a.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/woaiso/cmd-to-commonjs#readme",
   "devDependencies": {
-    "jscodeshift": "^0.3.30"
+    "jscodeshift": "^0.3.30",
+    "ts-node": "^3.0.0",
+    "typescript": "^2.2.1"
   }
 }
