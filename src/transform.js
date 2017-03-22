@@ -1,4 +1,4 @@
-export default function (file: any, api: any) {
+module.exports = function(file, api) {
     const jscodeshift = api.jscodeshift;
     return jscodeshift(file.source)
         .find(jscodeshift.ExpressionStatement)
@@ -29,7 +29,7 @@ export default function (file: any, api: any) {
                                 break;
                         }
                     });
-                    item= firstNode;
+                    item = firstNode;
                 }
                 if (isLeading &&
                     item.type === 'ExpressionStatement' &&
