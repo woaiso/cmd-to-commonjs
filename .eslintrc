@@ -1,0 +1,15 @@
+{
+    "root": true,
+    "failOnWarning": false,
+    "failOnError": true,
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "amd": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended"
+    ]
+}
