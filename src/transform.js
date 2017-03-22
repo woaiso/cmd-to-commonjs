@@ -1,4 +1,4 @@
-module.exports = function(file, api) {
+module.exports = (file, api) => {
     const jscodeshift = api.jscodeshift;
     return jscodeshift(file.source)
         .find(jscodeshift.ExpressionStatement)

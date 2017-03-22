@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+const cmdToCommonJS = require('../');
+const files = process.argv.slice(2);
+
+if (files.length) {
+    cmdToCommonJS(files);
+}

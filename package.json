@@ -2,9 +2,12 @@
   "name": "cmd-to-commonjs",
   "version": "0.0.1",
   "description": "cmd to commonjs",
-  "main": "index.js",
+  "main": "src/index.js",
+  "bin": {
+    "c2c": "bin/runner"
+  },
   "scripts": {
-    "test": "node src/index.js test/a.js"
+    "test": "node bin/runner test/a.js"
   },
   "repository": {
     "type": "git",
