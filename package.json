@@ -4,7 +4,8 @@
   "description": "cmd to commonjs",
   "main": "src/index.js",
   "bin": {
-    "c2c": "bin/runner"
+    "c2c": "bin/runner",
+    "cmd2commonjs": "bin/runner"
   },
   "scripts": {
     "test": "node bin/runner test/a.js"
