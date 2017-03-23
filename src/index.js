@@ -4,7 +4,7 @@
 
 const Runner = require('jscodeshift/dist/Runner.js');
 const path = require('path');
-const transform = path.resolve(__dirname, 'transform.js');
+const transform = path.resolve(__dirname, 'cmd-to-commonjs.js');
 
 module.exports = (files) => {
     return Runner.run(transform, files, {
