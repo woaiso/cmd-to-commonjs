@@ -24,7 +24,7 @@
     "url": "https://github.com/woaiso/cmd-to-commonjs/issues"
   },
   "homepage": "https://github.com/woaiso/cmd-to-commonjs#readme",
-  "devDependencies": {
+  "dependencies": {
     "jscodeshift": "^0.3.30"
   }
 }
