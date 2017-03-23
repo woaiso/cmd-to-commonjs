@@ -1,6 +1,6 @@
 {
   "name": "cmd-to-commonjs",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "cmd to commonjs",
   "main": "src/index.js",
   "bin": {
