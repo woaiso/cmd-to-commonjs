@@ -8,7 +8,7 @@
     "cmd2commonjs": "bin/runner"
   },
   "scripts": {
-    "test": "node bin/runner test/a.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/woaiso/cmd-to-commonjs#readme",
   "dependencies": {
+    "jest": "^19.0.2",
     "jscodeshift": "^0.3.30"
   }
 }
