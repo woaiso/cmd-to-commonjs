@@ -70,3 +70,6 @@ cmd2commonjs path/src
 ```
 cmd2commonjs src/index.js
 ```
+
+
+[npm]: https://www.npmjs.com/
