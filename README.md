@@ -1,4 +1,6 @@
 # cmd-to-commonjs [![Build Status](https://travis-ci.org/woaiso/cmd-to-commonjs.svg?branch=master)](https://travis-ci.org/woaiso/cmd-to-commonjs) [![codecov](https://codecov.io/gh/woaiso/cmd-to-commonjs/branch/master/graph/badge.svg)](https://codecov.io/gh/woaiso/cmd-to-commonjs) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![npm](https://img.shields.io/npm/v/cmd-to-commonjs.svg)]() ![](https://david-dm.org/woaiso/cmd-to-commonjs.svg)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/woaiso/cmd-to-commonjs.svg)](https://greenkeeper.io/)
 seajs cmd to commonjs
 
 
