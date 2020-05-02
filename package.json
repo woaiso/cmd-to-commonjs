@@ -26,6 +26,6 @@
   "homepage": "https://github.com/woaiso/cmd-to-commonjs#readme",
   "dependencies": {
     "jest": "^20.0.3",
-    "jscodeshift": "^0.6.4"
+    "jscodeshift": "^0.7.1"
   }
 }
